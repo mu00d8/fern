@@ -24,7 +24,7 @@ is-it-maintained-issue-resolution = { repository = "daboross/fern" }
 maintenance = { status = "passively-maintained" }
 
 [dependencies]
-log = { version = "0.4", features = ["std"] }
+log = { version = "0.4", features = ["std"], path = "../log" }
 colored = { version = "1.5", optional = true }
 chrono = { version = "0.4", optional = true }
 
